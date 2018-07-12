@@ -6,8 +6,8 @@
     text-align: left;
   }
   .card {
-    height: 150px;
-    width: 150px;
+    height: 2000px;
+    width: 200px;
   }
   .card > .img-container {
     overflow: hidden;
