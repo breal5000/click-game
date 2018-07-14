@@ -8,7 +8,7 @@ import "./App.css";
 
 let correctGuesses = 0;
 let bestScore = 0;
-let clickMessage = "Click on an image to earn points, but don't click on any of them more than once!";
+let clickMessage = "Click on a racer to earn points, but only click on each winner one time!";
 
 class App extends Component {
     
@@ -36,7 +36,7 @@ class App extends Component {
             console.log ("Best Score: " + bestScore);
 
             correctGuesses = 0;
-            clickMessage = "You already clicked on that one! Now you must begin again!"
+            clickMessage = "You already clicked on that one! Grand Depart!"
 
             for (let i = 0 ; i < matches.length ; i++){
                 matches[i].clicked = false;
@@ -55,7 +55,7 @@ class App extends Component {
             // increment the appropriate counter
             correctGuesses++;
             
-            clickMessage = "You haven't click on that one yet! Keep going!";
+            clickMessage = "You haven't click on that one yet! Keep racing!";
 
             if (correctGuesses > bestScore){
                 bestScore = correctGuesses;
@@ -78,7 +78,7 @@ class App extends Component {
             correctGuesses = 0;
 
             // Egg on the user to play again
-            clickMessage = "WOW!!! You got ALL of them!!! Now, let's see if you can do it again!";
+            clickMessage = "WOW! You got ALL of them! Now, let's see if you can do it again!";
             bestScore = 12;
             this.setState({ bestScore });
             

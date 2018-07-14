@@ -6,8 +6,8 @@
     text-align: left;
   }
   .card {
-    height: 2000px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
   }
   .card > .img-container {
     overflow: hidden;
@@ -15,6 +15,6 @@
     background:black;
   }
   .card > .img-container > img {
-    height: 75%;
-    width: 75%;
+    height: 85%;
+    width: 85%;
   }
