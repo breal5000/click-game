@@ -1,62 +1,62 @@
 [
     {
       "id": 1,
-      "image": "./assets/images/chris.jpg",
+      "image": "/images/chris.jpg",
       "clicked": false
     },
     {
       "id": 2,
-      "image": "./assets/images/vincenzo.jpg",
+      "image": "/images/vincenzo.jpg",
       "clicked": false
     },
     {
       "id": 3,
-      "image": "./assets/images/bradley.jpg",
+      "image": "/images/bradley.jpg",
       "clicked": false
     },
     {
       "id": 4,
-      "image": "./assets/images/jacques.jpg",
+      "image": "/images/jacque.jpg",
       "clicked": false
     },
     {
       "id": 5,
-      "image": "./assets/images/bernard.jpg",
+      "image": "/images/bernard.jpg",
       "clicked": false
     },
     {
       "id": 6,
-      "image": "./assets/images/cadel.jpg",
+      "image": "/images/cadel.jpg",
       "clicked": false
     },
     {
       "id": 7,
-      "image": "./assets/images/alberto.jpg",
+      "image": "/images/alberto.jpg",
       "clicked": false
     },
     {
       "id": 8,
-      "image": "./assets/images/eddy.jpg",
+      "image": "/images/eddy.jpg",
       "clicked": false
     },
     {
       "id": 9,
-      "image": "./assets/images/fausto.jpg",
+      "image": "/images/fausto.jpg",
       "clicked": false
     },
     {
       "id": 10,
-      "image": "./assets/images/greg-lemond1.jpg",
+      "image": "/images/greg-lemond1.jpg",
       "clicked": false
     },
     {
       "id": 11,
-      "image": "./assets/images/lance.jpg",
+      "image": "/images/lance.jpg",
       "clicked": false
     },
     {
       "id": 12,
-      "image": "./assets/images/miguel-indurain-big.jpg",
+      "image": "/images/miguel-indurain-big.jpg",
       "clicked": false
     }
   ]

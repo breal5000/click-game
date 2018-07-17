@@ -100,6 +100,7 @@ class App extends Component {
     render() {
         return (
             <Wrapper>
+                {/* <img src="/images/bernard.jpg" /> */}
                 <Title>Tour de France Winners!</Title>
         
                 <h3 className="scoreSummary">
